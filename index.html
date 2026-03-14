@@ -3,103 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide Alternance 2026</title>
+    <title>Guide pour Réussir Ton Alternance</title>
     <style>
+        /* Couleurs de votre eBook */
+        :root {
+            --bleu-primaire: #2A3547;
+            --gris-clair: #E0E0E0;
+            --texte: #333333;
+            --fond: #FFFFFF;
+        }
+
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: var(--texte);
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: var(--fond);
         }
+
         .header {
             text-align: center;
-            padding: 20px 0;
-            background-color: #fff;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 30px 0;
+            border-bottom: 2px solid var(--gris-clair);
+            margin-bottom: 30px;
         }
+
         h1 {
-            color: #2A3547;
+            color: var(--bleu-primaire);
             font-size: 2.2em;
+            margin-bottom: 10px;
         }
+
         h2 {
-            color: #4CAF50;
+            color: var(--bleu-primaire);
             font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--gris-clair);
+            padding-bottom: 10px;
         }
+
+        h3 {
+            color: var(--bleu-primaire);
+            font-size: 1.3em;
+            margin-top: 20px;
+        }
+
         .price {
             font-size: 1.8em;
-            color: #E91E63;
+            color: var(--bleu-primaire);
             font-weight: bold;
+            margin: 10px 0;
         }
+
         .button {
             display: inline-block;
-            background-color: #4CAF50;
+            background-color: var(--bleu-primaire);
             color: white;
             padding: 12px 24px;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
-            margin-top: 10px;
+            margin: 15px 0;
+            border: none;
+            cursor: pointer;
         }
+
         .button:hover {
-            background-color: #388E3C;
+            background-color: #1a2332; /* Bleu plus foncé au survol */
         }
+
         .features {
             list-style: none;
             padding: 0;
+            margin: 20px 0;
         }
+
         .features li {
             padding: 8px 0;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
         }
+
         .features li:before {
             content: "✅";
-            color: #4CAF50;
+            color: var(--bleu-primaire);
             font-weight: bold;
             margin-right: 10px;
+            font-size: 1.1em;
         }
+
         .testimonial {
-            background-color: #e8f5e9;
-            padding: 15px;
+            background-color: var(--gris-clair);
+            padding: 20px;
             border-radius: 5px;
             margin: 20px 0;
             font-style: italic;
+            border-left: 4px solid var(--bleu-primaire);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+            border-top: 1px solid var(--gris-clair);
+        }
+
+        /* Style pour les tableaux (comme dans votre eBook) */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid var(--gris-clair);
+        }
+
+        th {
+            background-color: var(--bleu-primaire);
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        /* Style pour les listes à puces (comme dans votre eBook) */
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
+    <!-- En-tête avec le même style que votre eBook -->
     <div class="header">
-        <h1>Décroche Ton Alternance en 30 Jours</h1>
-        <p>Le guide ultime pour trouver ton contrat d'alternance, avec des modèles de CV/lettre optimisés pour les ATS et une liste de 100 entreprises qui recrutent.</p>
+        <h1>GUIDE POUR RÉUSSIR TON ALTERNANCE</h1>
+        <p>Un guide étape par étape avec des modèles de CV/lettre optimisés pour les ATS et une liste de 100 entreprises qui recrutent.</p>
     </div>
 
+    <!-- Section "Pourquoi ce guide ?" -->
     <h2>Pourquoi ce guide ?</h2>
-    <p>90% des grandes entreprises utilisent des ATS pour filtrer les candidatures. Avec ce guide, tu auras :</p>
+    <p>90% des grandes entreprises utilisent des <strong>ATS (systèmes de recrutement automatisés)</strong> pour filtrer les candidatures. Avec ce guide, tu auras tout ce qu’il faut pour :</p>
     <ul class="features">
-        <li>Des modèles de CV et lettre qui passent les filtres ATS.</li>
-        <li>Des scripts d'emails prêts à l'emploi pour contacter les recruteurs.</li>
-        <li>Une liste de 100 entreprises qui recrutent en alternance en 2026.</li>
-        <li>Garantie satisfait ou remboursé sous 7 jours.</li>
+        <li>Des modèles de CV et lettre de motivation <strong>optimisés pour les ATS</strong> (ils passent 90% des filtres).</li>
+        <li>Des scripts d’emails et relances <strong>prêts à copier-coller</strong> pour contacter les recruteurs.</li>
+        <li>Une liste de <strong>100 entreprises</strong> qui recrutent en alternance en 2026.</li>
+        <li><strong>Garantie satisfait ou remboursé</strong> sous 7 jours.</li>
     </ul>
 
+    <!-- Témoignages (comme dans votre eBook) -->
     <div class="testimonial">
-        <p>"Grâce à ce guide, j’ai décroché mon alternance en 2 semaines !" – Jean, étudiant en marketing.</p>
+        <p>"Grâce à ce guide, j’ai décroché mon alternance en <strong>2 semaines</strong> ! Les modèles de CV ont fait toute la différence." – Jean, étudiant en marketing.</p>
     </div>
 
+    <!-- Section Prix + Bouton d'Achat -->
     <h2>Offre de lancement</h2>
-    <p class="price">Seulement 19,99€ (au lieu de 29,99€)</p>
-    <a href="LIEN_VERS_GUMROAD" class="button">Acheter Maintenant</a>
+    <p class="price">19,99€ (au lieu de 29,99€)</p>
+    <a href="LIEN_VERS_GUMROAD" class="button">Acheter le Guide Maintenant</a>
 
-    <h2>FAQ</h2>
+    <!-- Section FAQ (comme dans votre eBook) -->
+    <h2>Questions Fréquentes</h2>
     <p><strong>❓ Combien de temps pour recevoir l’eBook ?</strong></p>
-    <p>→ Immédiatement après paiement !</p>
+    <p>→ <strong>Immédiatement après paiement</strong> ! Tu recevras un email avec le lien de téléchargement.</p>
 
     <p><strong>❓ Puis-je payer par PayPal ?</strong></p>
     <p>→ Oui, ainsi que par carte bancaire.</p>
+
+    <p><strong>❓ Le guide est-il adapté à mon secteur ?</strong></p>
+    <p>→ Oui ! Il inclut des <strong>mots-clés ATS par secteur</strong> (marketing, informatique, commerce, etc.).</p>
+
+    <!-- Pied de page (comme dans votre eBook) -->
+    <div class="footer">
+        <p>© 2026 [Votre Nom]. Tous droits réservés.</p>
+    </div>
 </body>
 </html>
